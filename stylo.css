@@ -34,7 +34,7 @@ img {
 }
 
 /*seleccionadores descendientes*/
-div p {
+div p, img {
     color: gray;
     text-align: center;
 }
