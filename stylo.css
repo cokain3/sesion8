@@ -1,0 +1,43 @@
+/*selectores de etiqueta*/
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+img {
+    border: 10px solid black;
+}
+
+/*seleccionadores de clase*/
+
+.destacado {
+    color: green;
+}
+
+.grande {
+    font-size: large;
+}
+
+/*seleccionadores de ID*/
+
+#principal {
+    color: yellow;
+}
+
+#sombras {
+    color: yellow;
+    font-weight: 900;
+    text-shadow: 3px 3px 0px green, 5px 5px 0px black;
+}
+
+/*seleccionadores descendientes*/
+div p {
+    color: gray;
+    text-align: center;
+}
+section h3, p {
+    text-align: center;
+}
